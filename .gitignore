@@ -12,7 +12,7 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
+**/dist
 downloads/
 eggs/
 .eggs/
@@ -171,7 +171,7 @@ cython_debug/
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
+# /dist
 /tmp
 /out-tsc
 
@@ -229,7 +229,7 @@ yarn-error.log*
 
 
 # Dependency directories
-node_modules/
+**/node_modules
 jspm_packages/
 
 # Optional npm cache directory
@@ -248,7 +248,7 @@ jspm_packages/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+**.env
 
 # next.js build output
 .next
@@ -260,6 +260,6 @@ lerna-debug.log
 .DS_Store
 Thumbs.db
 
-package-lock.json
+**package-lock.json
 
 test.js
